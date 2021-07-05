@@ -256,11 +256,11 @@ function onLoad() {
     });
     loadDemoButton.addEventListener("click", function () {
         fullReset();
-        extract("tileset-extractor-demo.png");
+        extract("demo/mario.png");
     });
     loadDemoBigButton.addEventListener("click", function () {
         fullReset();
-        extract("tileset-extractor-demo-big.png");
+        extract("demo/zelda.png");
     });
     let changeListener = () => {
         if (null === source) {
